@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="riw.css">
+    <title>Riwayat Transaksi</title>
+</head>
+<body>
+
+    <header class="navbar-header">
+        <nav class="nav-links">
+            <a href="daftar.html">Beranda</a>
+            <a href="riwayat.html">Transaksi</a>
+            <a href="shop">Shop</a>
+        </nav>
+    </header>
+
+    <div class="hero-banner-riwayat"></div>
+
+    <main>
+        <section class="riwayat-section">
+            <div class="riwayat-header">
+                <h2>Riwayat Transaksi</h2>
+                <div class="filter-buttons">
+                    <button class="btn-filter active">Paket</button>
+                    <button class="btn-filter active">Produk</button>
+                </div>
+            </div>
+
+            <div class="riwayat-kosong">
+                <p>Belum Ada Riwayat Transaksi.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

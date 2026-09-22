@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="daf.css"
+    <title>daftar</title>
+</head>
+<body>
+    <header>
+        <h1>Daftar Produk</h1>
+        <p>Bahan Bakar Terbaik untuk Performa Maksimalmu</p>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="beranda">Beranda</a></li>
+                <li><a href="riwayat.html">Transaksi</a></li>
+                <li><a href="shop">Shop</a></li>
+            </ul>
+        </nav>
+<main>
+    <section>
+        <h2>DAFTAR BARANG</h2>
+
+        <div class="produk-container">
+
+            <div class="produk-card">
+                <img src="whey.jpg" alt="Whey Protein"/>
+                <h3>Whey Protein</h3>
+                <p>Solusi buat yang hobi "shake" tapi otot gak gede-gede.</p>
+                <p>Rp69.326</p>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+
+            <div class="produk-card">
+                <img src="creatine.jpg" alt="creatine"/>
+                <h3>Creatin</h3>
+                <p>Khusus buat yang hobi seduh bubuk putih tanpa rasa tapi pengen tenaga badak.</p>
+                <p>Rp43.785</p>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+
+            <div class="produk-card">
+                <img src="Mons.jpg" alt="Monster Energy"/>
+                <h3>Monster Energy</h3>
+                <p>Minuman Para Pecinta GOTH.</p>
+                <p>Rp13.778</p>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+
+            <div class="produk-card">
+                <img src="water.jpg" alt="Water"/>
+                <h3>Banyu</h3>
+                <p>Sama kayak air pada umumnya, cuman versi bubuk.</p>
+                <p>Rp4.000</p>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+    </section>
+    <section class="menu-section">
+        <h2>DAFTAR PAKET</h2>
+
+        <div class="paket-container">
+
+            <div class="paket-card">
+                <img src="chad.jpg" alt="Paket Pelajar"/>
+                <h3>Paket Pelajar</h3>
+                <p>Cocok buat para remaja yang masih dalam masa pertumbuhan.</p>
+                <p>Rp.85.000</p>
+                <button class="btn-beli">Daftar Sekarang</button>
+            </div>
+
+            <div class="paket-card">
+                <img src="bulan.jpg" alt="Paket Bulanan"/>
+                <h3>Paket Bulanan</h3>
+                <p>Buat para member yang ingin fokus latihan selama 1 bulan.</p>
+                <p>Rp95.000</p>
+                <button class="btn-beli">Daftar Sekarang</button>
+            </div>
+            <div class="paket-card">
+                <img src="muscle morph.jpg" alt="Paket 6 Bulanan"/>
+                <h3>Paket 6 Bulanan</h3>
+                <p>Cocok buat kalian yang ingin latihan disini selama 1 semester.</p>
+                <p>Rp145.000</p>
+                <button class="btn-beli">Daftar Sekarang</button>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
